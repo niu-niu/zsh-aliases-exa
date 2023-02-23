@@ -3,10 +3,9 @@
 #+DATE: <2023-02-23 Thu>
 #+OPTIONS: toc:nil
 
-* zsh-aliases-exa
-** intro
+* intro
 an exa aliases plugin for zsh
-** content
+* content
 #+begin_src sh
 ## general view
 # quick view
