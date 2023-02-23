@@ -17,7 +17,7 @@ alias lsm='exa --header --icons --color-scale --sort=modified --long -g -F'
 
 ## other
 # tree view
-alias ltree='exa --tree --level=' # append number of level
+alias ltree='f(){exa --tree --level=$1 };f' # append number of level
 # recurse view
 alias lr='exa --recurse'
 
