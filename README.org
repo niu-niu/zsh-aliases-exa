@@ -3,9 +3,19 @@
 #+DATE: <2023-02-23 Thu>
 #+OPTIONS: toc:nil
 
-* intro
-an exa aliases plugin for zsh
-* content
+* Introduction
+An exa aliases plugin for zsh.
+* Use
+install exa.
+#+begin_src sh
+# Arch
+paru -S exa
+#+end_src
+Then add follow line in zshrc file:
+#+begin_src shell
+zi light niu-niu/zsh-aliases-exa
+#+end_src
+* Aliases
 #+begin_src sh
 ## general view
 # quick view
