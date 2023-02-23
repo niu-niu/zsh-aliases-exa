@@ -1,0 +1,26 @@
+#+title: zsh-aliases-exa
+#+AUTHOR: RP
+#+DATE: <2023-02-23 Thu>
+#+OPTIONS: toc:nil
+
+* zsh-aliases-exa
+** intro
+an exa aliases plugin for zsh
+** content
+#+begin_src sh
+## general view
+# quick view
+alias l='exa --icons --color-scale --sort=type -F'
+# detail view
+alias ls='exa --header --icons --color-scale --sort=type --long -g -F'
+# deteil view with git info
+alias lsg='exa --header --icons --color-scale --sort=type --long -g -F --git'
+# sort view
+alias lsm='exa --header --icons --color-scale --sort=modified --long -g -F'
+
+## other view
+# tree view
+alias ltree='exa --tree --level=' # append number of level
+# recurse view
+alias lr='exa --recurse'
+#+end_src
