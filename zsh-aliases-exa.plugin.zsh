@@ -10,6 +10,8 @@
 alias l='exa --icons --color-scale --sort=type -F'
 # detail view
 alias ls='exa --header --icons --color-scale --sort=type --long -g -F'
+# detail all  view
+alias lsa='exa --header --icons --color-scale --sort=type --long -g -F --all'
 # detail with git view
 alias lsg='exa --header --icons --color-scale --sort=type --long -g -F --git'
 # modified sort view
